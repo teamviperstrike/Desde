@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notable</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_id">516348061811760</string>
+    <string name="menu_string">Menu</string>
+    <string name="go_social">Go Social!</string>
+    <string name="my_milestones">My Milestones</string>
+    <string name="settings">Settings</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="default_start_time">0 days : 0 hours : 0 minutes : 0 seconds</string>
+    <string name="reset">Reset</string>
+    <string name="notify_me">Notify Me</string>
+    <string name="facebook">Facebook</string>
+    <string name="ms_one">Milestone One</string>
+    <string name="ms_two">Milestone Two</string>
+    <string name="ms_three">Milestone Three</string>
+    <string name="save">Save</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="cancel">Cancel</string>
+    <string name="send_me">Send Me Notifications:</string>
+    <string name="rename_one">Rename Milestone One:</string>
+    <string name="rename_two">Rename Milestone Two:</string>
+    <string name="rename_three">Rename Milestone Three:</string>
+    <string name="rename_ms">Rename Milestones</string>
+    <string name="connect">Connect To Facebook</string>
+    <string name="hint">Tap To Add Note</string>
+    <string name="addnew">Add New Milestone</string>
+
+</resources>

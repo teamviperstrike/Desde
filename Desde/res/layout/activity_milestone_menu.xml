@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/msbg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    style="?android:attr/buttonBarStyle"
+    tools:context=".MainMenu" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:orientation="horizontal" >
+        
+     <Button
+        android:id="@+id/buttonStart"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:text="@string/start"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:text="@string/reset"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextNotes"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="88dp"
+            android:text="@string/notify_me"
+            android:textColor="#ffffff" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="23dp"
+            android:text="@string/facebook"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTime"
+        android:layout_marginTop="18dp"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="textMultiLine"
+        android:textColor="#ffffff" >
+    </EditText>
+
+
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextNotes"
+        android:text="@string/default_start_time"
+        android:textColor="#ffffff"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:inputType="text"
+        android:textColor="#ffffff" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

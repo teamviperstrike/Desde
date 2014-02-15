@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/milestonebg"
+    tools:context=".MainMenu" >
+
+	<LinearLayout 
+	    android:id="@+id/linearLayoutScrollView"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:baselineAligned="false"
+	    android:layout_marginTop="20dp"
+	    android:background="@drawable/milestonebg"
+	    android:gravity="center"
+	    android:orientation="vertical"
+	    tools:context=".MainMenu" >
+
+		<Button
+		    android:id="@+id/buttonMS1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/buttonbg"
+		    android:gravity="center"
+		    android:text="@string/ms_one"
+		    android:textColor="#ffffff" />
+
+		<Button
+		    android:id="@+id/buttonMS2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="22dp"
+		    android:background="@drawable/buttonbg"
+		    android:gravity="center"
+		    android:text="@string/ms_two"
+		    android:textColor="#ffffff" />
+
+    	<Button
+    	    android:id="@+id/buttonMS3"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="22dp"
+    	    android:background="@drawable/buttonbg"
+    	    android:gravity="center"
+    	    android:text="@string/ms_three"
+    	    android:textColor="#ffffff" />
+    	
+    	</LinearLayout>
+
+
+    	<!--  <SlidingDrawer
+    	    android:id="@+id/slidingDrawer1"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:content="@+id/content"
+    	    
+    	    android:handle="@+id/handle" >
+
+    	    <Button
+    	        android:id="@+id/handle"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:background="@drawable/buttonbg"
+    	        android:textSize="15sp"
+    	        android:textColor="#ffffff"
+    	        android:text="@string/addnew" />
+
+    	    <LinearLayout
+    	        android:id="@+id/content"
+    	        android:orientation="horizontal"
+    	        android:layout_width="wrap_content"
+    	        android:background="@drawable/drawerbg"
+    	        android:layout_height="wrap_content" >
+    	        
+    	        <EditText
+			        android:id="@+id/editTextTitle"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="19dp"
+			        android:ems="10"
+			        android:inputType="text"
+			        android:background="@drawable/buttonbg"
+			        android:textColor="#ffffff" />
+
+    	    </LinearLayout>
+    	</SlidingDrawer>-->
+
+
+	
+	
+</RelativeLayout>
