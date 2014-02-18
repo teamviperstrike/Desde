@@ -234,54 +234,56 @@ containing a value of this type.
         public static final int timerbg=0x7f02002b;
     }
     public static final class id {
-        public static final int action_settings=0x7f05002f;
+        public static final int action_settings=0x7f050031;
         public static final int authButton=0x7f050004;
         public static final int button1=0x7f050005;
-        public static final int button2=0x7f050013;
+        public static final int button2=0x7f050014;
         public static final int button3=0x7f050006;
-        public static final int buttonMS1=0x7f050010;
-        public static final int buttonMS2=0x7f050011;
-        public static final int buttonMS3=0x7f050012;
-        public static final int buttonNotify=0x7f050019;
-        public static final int buttonReset=0x7f050009;
-        public static final int buttonStart=0x7f050008;
-        public static final int com_facebook_login_activity_progress_bar=0x7f05001c;
-        public static final int com_facebook_picker_activity_circle=0x7f05001b;
-        public static final int com_facebook_picker_checkbox=0x7f05001e;
-        public static final int com_facebook_picker_checkbox_stub=0x7f050022;
-        public static final int com_facebook_picker_divider=0x7f050026;
-        public static final int com_facebook_picker_done_button=0x7f050025;
-        public static final int com_facebook_picker_image=0x7f05001f;
-        public static final int com_facebook_picker_list_section_header=0x7f050023;
-        public static final int com_facebook_picker_list_view=0x7f05001a;
-        public static final int com_facebook_picker_profile_pic_stub=0x7f050020;
-        public static final int com_facebook_picker_row_activity_circle=0x7f05001d;
-        public static final int com_facebook_picker_search_text=0x7f05002b;
-        public static final int com_facebook_picker_title=0x7f050021;
-        public static final int com_facebook_picker_title_bar=0x7f050028;
-        public static final int com_facebook_picker_title_bar_stub=0x7f050027;
-        public static final int com_facebook_picker_top_bar=0x7f050024;
-        public static final int com_facebook_search_bar_view=0x7f05002a;
-        public static final int com_facebook_usersettingsfragment_login_button=0x7f05002e;
-        public static final int com_facebook_usersettingsfragment_logo_image=0x7f05002c;
-        public static final int com_facebook_usersettingsfragment_profile_name=0x7f05002d;
-        public static final int editTextNotes=0x7f05000a;
-        public static final int editTextTitle=0x7f05000e;
+        public static final int buttonMS1=0x7f050011;
+        public static final int buttonMS2=0x7f050012;
+        public static final int buttonMS3=0x7f050013;
+        public static final int buttonNotify=0x7f05001b;
+        public static final int buttonReset=0x7f05000a;
+        public static final int buttonStart=0x7f050009;
+        public static final int com_facebook_login_activity_progress_bar=0x7f05001e;
+        public static final int com_facebook_picker_activity_circle=0x7f05001d;
+        public static final int com_facebook_picker_checkbox=0x7f050020;
+        public static final int com_facebook_picker_checkbox_stub=0x7f050024;
+        public static final int com_facebook_picker_divider=0x7f050028;
+        public static final int com_facebook_picker_done_button=0x7f050027;
+        public static final int com_facebook_picker_image=0x7f050021;
+        public static final int com_facebook_picker_list_section_header=0x7f050025;
+        public static final int com_facebook_picker_list_view=0x7f05001c;
+        public static final int com_facebook_picker_profile_pic_stub=0x7f050022;
+        public static final int com_facebook_picker_row_activity_circle=0x7f05001f;
+        public static final int com_facebook_picker_search_text=0x7f05002d;
+        public static final int com_facebook_picker_title=0x7f050023;
+        public static final int com_facebook_picker_title_bar=0x7f05002a;
+        public static final int com_facebook_picker_title_bar_stub=0x7f050029;
+        public static final int com_facebook_picker_top_bar=0x7f050026;
+        public static final int com_facebook_search_bar_view=0x7f05002c;
+        public static final int com_facebook_usersettingsfragment_login_button=0x7f050030;
+        public static final int com_facebook_usersettingsfragment_logo_image=0x7f05002e;
+        public static final int com_facebook_usersettingsfragment_profile_name=0x7f05002f;
+        public static final int content=0x7f050007;
+        public static final int editTextNotes=0x7f05000b;
+        public static final int editTextTitle=0x7f05000f;
         public static final int large=0x7f050002;
-        public static final int linearLayout1=0x7f050007;
-        public static final int linearLayoutScrollView=0x7f05000f;
+        public static final int linearLayout1=0x7f050008;
+        public static final int linearLayoutScrollView=0x7f050010;
         public static final int normal=0x7f050001;
-        public static final int picker_subtitle=0x7f050029;
-        public static final int radio0=0x7f050015;
-        public static final int radio1=0x7f050016;
-        public static final int radio2=0x7f050017;
-        public static final int radio3=0x7f050018;
-        public static final int radioGroup1=0x7f050014;
+        public static final int pager=0x7f05001a;
+        public static final int picker_subtitle=0x7f05002b;
+        public static final int radio0=0x7f050016;
+        public static final int radio1=0x7f050017;
+        public static final int radio2=0x7f050018;
+        public static final int radio3=0x7f050019;
+        public static final int radioGroup1=0x7f050015;
         public static final int small=0x7f050000;
-        public static final int switch1=0x7f05000b;
-        public static final int switch2=0x7f05000c;
+        public static final int switch1=0x7f05000c;
+        public static final int switch2=0x7f05000d;
         public static final int textView1=0x7f050003;
-        public static final int textViewTime=0x7f05000d;
+        public static final int textViewTime=0x7f05000e;
     }
     public static final class layout {
         public static final int activity_fbconnect_menu=0x7f030000;
@@ -289,21 +291,22 @@ containing a value of this type.
         public static final int activity_milestone_menu=0x7f030002;
         public static final int activity_mymilestones_menu=0x7f030003;
         public static final int activity_notify_menu=0x7f030004;
-        public static final int activity_settingsmenu_menu=0x7f030005;
-        public static final int com_facebook_friendpickerfragment=0x7f030006;
-        public static final int com_facebook_login_activity_layout=0x7f030007;
-        public static final int com_facebook_picker_activity_circle_row=0x7f030008;
-        public static final int com_facebook_picker_checkbox=0x7f030009;
-        public static final int com_facebook_picker_image=0x7f03000a;
-        public static final int com_facebook_picker_list_row=0x7f03000b;
-        public static final int com_facebook_picker_list_section_header=0x7f03000c;
-        public static final int com_facebook_picker_search_box=0x7f03000d;
-        public static final int com_facebook_picker_title_bar=0x7f03000e;
-        public static final int com_facebook_picker_title_bar_stub=0x7f03000f;
-        public static final int com_facebook_placepickerfragment=0x7f030010;
-        public static final int com_facebook_placepickerfragment_list_row=0x7f030011;
-        public static final int com_facebook_search_bar_layout=0x7f030012;
-        public static final int com_facebook_usersettingsfragment=0x7f030013;
+        public static final int activity_screen_slide=0x7f030005;
+        public static final int activity_settingsmenu_menu=0x7f030006;
+        public static final int com_facebook_friendpickerfragment=0x7f030007;
+        public static final int com_facebook_login_activity_layout=0x7f030008;
+        public static final int com_facebook_picker_activity_circle_row=0x7f030009;
+        public static final int com_facebook_picker_checkbox=0x7f03000a;
+        public static final int com_facebook_picker_image=0x7f03000b;
+        public static final int com_facebook_picker_list_row=0x7f03000c;
+        public static final int com_facebook_picker_list_section_header=0x7f03000d;
+        public static final int com_facebook_picker_search_box=0x7f03000e;
+        public static final int com_facebook_picker_title_bar=0x7f03000f;
+        public static final int com_facebook_picker_title_bar_stub=0x7f030010;
+        public static final int com_facebook_placepickerfragment=0x7f030011;
+        public static final int com_facebook_placepickerfragment_list_row=0x7f030012;
+        public static final int com_facebook_search_bar_layout=0x7f030013;
+        public static final int com_facebook_usersettingsfragment=0x7f030014;
     }
     public static final class menu {
         public static final int main_menu=0x7f0a0000;
@@ -421,7 +424,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:multi_select
+          @attr name android:multi_select
         */
         public static final int com_facebook_friend_picker_fragment_multi_select = 0;
         /** Attributes that can be used with a com_facebook_login_view.
@@ -454,7 +457,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:confirm_logout
+          @attr name android:confirm_logout
         */
         public static final int com_facebook_login_view_confirm_logout = 0;
         /**
@@ -468,7 +471,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:fetch_user_info
+          @attr name android:fetch_user_info
         */
         public static final int com_facebook_login_view_fetch_user_info = 1;
         /**
@@ -482,7 +485,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:login_text
+          @attr name android:login_text
         */
         public static final int com_facebook_login_view_login_text = 2;
         /**
@@ -496,7 +499,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:logout_text
+          @attr name android:logout_text
         */
         public static final int com_facebook_login_view_logout_text = 3;
         /** Attributes that can be used with a com_facebook_picker_fragment.
@@ -532,7 +535,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.teamviperstrike.desde:done_button_background
+          @attr name android:done_button_background
         */
         public static final int com_facebook_picker_fragment_done_button_background = 6;
         /**
@@ -546,7 +549,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:done_button_text
+          @attr name android:done_button_text
         */
         public static final int com_facebook_picker_fragment_done_button_text = 4;
         /**
@@ -560,7 +563,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:extra_fields
+          @attr name android:extra_fields
         */
         public static final int com_facebook_picker_fragment_extra_fields = 1;
         /**
@@ -574,7 +577,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:show_pictures
+          @attr name android:show_pictures
         */
         public static final int com_facebook_picker_fragment_show_pictures = 0;
         /**
@@ -588,7 +591,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:show_title_bar
+          @attr name android:show_title_bar
         */
         public static final int com_facebook_picker_fragment_show_title_bar = 2;
         /**
@@ -598,7 +601,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.teamviperstrike.desde:title_bar_background
+          @attr name android:title_bar_background
         */
         public static final int com_facebook_picker_fragment_title_bar_background = 5;
         /**
@@ -612,7 +615,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:title_text
+          @attr name android:title_text
         */
         public static final int com_facebook_picker_fragment_title_text = 3;
         /** Attributes that can be used with a com_facebook_place_picker_fragment.
@@ -645,7 +648,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:radius_in_meters
+          @attr name android:radius_in_meters
         */
         public static final int com_facebook_place_picker_fragment_radius_in_meters = 0;
         /**
@@ -659,7 +662,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:results_limit
+          @attr name android:results_limit
         */
         public static final int com_facebook_place_picker_fragment_results_limit = 1;
         /**
@@ -673,7 +676,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:search_text
+          @attr name android:search_text
         */
         public static final int com_facebook_place_picker_fragment_search_text = 2;
         /**
@@ -687,7 +690,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:show_search_box
+          @attr name android:show_search_box
         */
         public static final int com_facebook_place_picker_fragment_show_search_box = 3;
         /** Attributes that can be used with a com_facebook_profile_picture_view.
@@ -716,7 +719,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.teamviperstrike.desde:is_cropped
+          @attr name android:is_cropped
         */
         public static final int com_facebook_profile_picture_view_is_cropped = 1;
         /**
@@ -734,7 +737,7 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>-3</td><td></td></tr>
 <tr><td><code>large</code></td><td>-4</td><td></td></tr>
 </table>
-          @attr name com.teamviperstrike.desde:preset_size
+          @attr name android:preset_size
         */
         public static final int com_facebook_profile_picture_view_preset_size = 0;
     };

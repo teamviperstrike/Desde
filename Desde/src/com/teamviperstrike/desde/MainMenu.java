@@ -34,7 +34,7 @@ public class MainMenu extends Activity {
 		
 		
 		// Intents
-		final Intent myMIntent = new Intent(this, MyMilestones.class);
+		final Intent myMIntent = new Intent(this, MilestoneDetails.class);
 		final Intent sIntent = new Intent(this, SettingsMenu.class);
 		
 		// Animation

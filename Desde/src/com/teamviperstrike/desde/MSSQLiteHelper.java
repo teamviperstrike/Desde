@@ -214,6 +214,28 @@ public class MSSQLiteHelper extends SQLiteOpenHelper {
 		
 	}
 	
+	// Get number of milestones
+	public int getCount(){
+
+		int count = 0;
+		openDatabase();
+		 Cursor cursor = milestonesDB.rawQuery("SELECT COUNT(rowID) FROM Milestones", null);
+		 
+		 try{
+			 if(cursor.moveToFirst()){
+				 count = cursor.getInt(0);
+			 }
+		 }catch(Exception e){
+			 
+		 }finally{
+			 cursor.close();
+			 milestonesDB.close();
+		 }
+		
+		return count;
+		
+	}
+	
 	// Get recently created mID
 	public int getNewID(){
 		try {

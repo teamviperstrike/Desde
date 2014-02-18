@@ -22,7 +22,7 @@ import android.widget.TextView;
  * 
  * @author teamviperstrike
  * @date 02/15/2014
- * @version 1.0.1
+ * @version 1.0.2
  * @see be a decent human. don't steal code, credit the author.
  *
  ********************************************************/

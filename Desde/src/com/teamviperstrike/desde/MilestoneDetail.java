@@ -198,12 +198,7 @@ public class MilestoneDetail extends Activity implements OnClickListener {
 		  }else if(state.isClosed()){
 			  final Switch facebook = (Switch) findViewById(R.id.switch2);
 			  facebook.setVisibility(View.INVISIBLE);
-		  }
-		  
-		  
-		  
-		  
-			
+		  }	
 		
 	}
 	  // Setup facebook share dialog, sending only the Title

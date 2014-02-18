@@ -32,7 +32,7 @@ public class MyMilestones extends Activity{
 		final String MSTag = "MSTag";
 		
 		//Intents
-		final Intent m1Intent = new Intent(this, MilestoneDetail.class);
+		final Intent m1Intent = new Intent(this, MilestoneDetails.class);
 		
 		//Instantiate objects, typefaces
 		final MSSQLiteHelper milestonesDB = new MSSQLiteHelper(this);
