@@ -1,4 +1,4 @@
-## Notable
+#Notable
 
 Notable is a milestone and life event tracking application. This application runs only on Android.
 
